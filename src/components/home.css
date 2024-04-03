@@ -1,0 +1,23 @@
+.header {
+    background-color: var(--bs-dark);
+}
+
+.display-1 {
+    font-family: var(--font-base);
+    color: var(--light-gold);
+    letter-spacing: 0.04em;
+}
+
+.header-img {
+    width: 80%;
+}
+
+.header .wrapper-info {
+    padding-right: 2rem;
+}
+
+@media screen and (max-width: 1150px) {
+    .header .wrapper-info {
+        padding: 2rem;
+    }
+}

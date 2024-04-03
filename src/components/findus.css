@@ -1,0 +1,31 @@
+.headtext {
+    margin-bottom: 2rem;
+}
+
+#contact .p-primary {
+    color: #DCCA87;
+    margin: 2rem;
+}
+
+.address {
+    color: var(--bs-gray-400);
+}
+
+@media screen and (max-width: 1150px) {
+    #contact.app-wrapper {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #contact.app-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .wrapper-info {
+        align-items: center;
+    }
+}
